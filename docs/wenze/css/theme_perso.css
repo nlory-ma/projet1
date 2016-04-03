@@ -1,0 +1,95 @@
+html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #CCC;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 0px 5px;
+	border: 1px solid #333;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	height : 60px;
+	width: 60%;
+	margin: 6px 10px;
+	padding: 0px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 54px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+button#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 60px !important;
+	width: 5% !important;
+	margin: 0px;
+	margin-left: 1%;
+	margin: 0px 10px;
+	margin-left: 10px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}
+
+.barre-de-navigation-top {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 70px;
+}
+.barre-de-navigation-menu {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 30px;
+	background-color: #DDD;
+}

@@ -1,0 +1,2229 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Conteny-Type" content="text/html; charset-utf-8" />
+	<title>Wenze :: La fraicheur de l'exotisme !</title>
+	<link rel="icon" type="image/png" href="img/favicon3.png" />
+	<link rel="stylesheet" type="text/css" href="css/theme_perso.css"  >
+</head>
+
+<body id="body">
+	<nav class="barre-de-navigation">
+
+		<div class="barre-de-navigation-top">
+			<a  class="menu-logo" href="#" >
+				<img src="" alt="Logo" />
+			</a>
+
+			<form class="navigation-recherche" role="search">
+				<input type="text" id="recherche-principale-input" placeholder="rechercher un produit">
+				<button type="submit" id="recherche-principale-bouton"></button>
+			</form>
+
+
+			<ul class="navigation-menu-principal">
+				<img src="img/empty_cart.png" alt="panier" height="30px" width="35px" />
+				<li><a href="#">Mon panier</a></li>
+				<img src="img/neutral_user.png" alt="panier" height="30px" width="35px" />
+				<li><a href="#">Mon compte</a></li>
+				<img src="img/list.png" alt="panier" height="30px" width="35px" />
+				<li><a href="#">Ma liste d'envie</a></li>
+			</ul>
+
+		</div>
+
+		<div class="barre-de-navigation-menu">
+		</div>
+	</nav>
+
+
+	<div id="contenu">
+		html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}html, body {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.barre-de-navigation {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+.menu-logo {
+	display: block;
+	position:relative;
+	float: left;
+	min-width: 140px;
+	width: 17%;
+	height: 70px;
+	padding: 5px;
+	background-color: red;
+}
+
+.navigation-recherche {
+	display: block;
+	position:relative;
+	float: left;
+	background-color: green;
+	height : 60px;
+	width: 60%;
+	margin: 10px;
+}
+
+#recherche-principale-input,
+input#recherche-principale-input {
+	display: block;
+	position:relative;
+	float: left !important;
+	height : 50px !important;
+	width: 88% !important;
+	margin: 0px;
+	font-family: Tahoma;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+#recherche-principale-bouton,
+input#recherche-principale-bouton {
+	display: block;
+	position:relative;
+	float: right !important;
+	height : 50px !important;
+	width: 10% !important;
+	margin: 0px;
+}
+
+.navigation-menu-principal {
+
+	display: block;
+	position:relative;
+	float: right;
+	width: 17%;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: orange;
+}
+
+.navigation-menu-principal ul {
+	overflow: hidden;
+}
+
+.navigation-menu-principal li {
+	list-style-type: none;
+}
+	</div>
+</body>
+</html>
