@@ -1,0 +1,427 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 600px;
+   background: url(../../images/wallpaper1.jpg) center center no-repeat scroll; /*ça marche aussi*/
+  /* background-color: lightseagreen;*/
+ /* background-image: url(../img/wallpaper4.jpg);*/   /*ça marche */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    box-shadow: 0px 0px 8px orangered;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.collapse navbar {
+    
+    overflow: hidden;
+    position: fixed;
+}
+
+
+.icon-addon .form-control {
+    border-radius: 5px;
+    border: 2px;
+    margin-left: 35%;
+}
+
+.icon-addon {
+    position: relative;
+   /*position: center;*/
+    color: #555;
+    display: block;
+    margin-left: 30%;
+    margin-top: -15%;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon .glyphicon {
+    font-size: 18px;
+    margin-left: 35%;
+    left: 11px;
+    top: 4px;
+}
+
+.icon-addon .form-control {
+    padding-left: 20%;
+    float: center;
+    font-weight: normal;
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+.input-group-btn>.btn {
+    /* position: relative; */
+    margin-left: 135%;
+    margin-top: -10%;
+}
+
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 68px;
+    margin-left: 30%;
+}
+
+.img-center {
+    margin: 0 30px;
+    height: 200px;
+}
+
+.lead {
+    text-shadow: 0 0 10px #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 30%;
+}
+
+#quisommesnous {
+    height: 600px;
+    width: 100%;
+    background-color: lightseagreen;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+#contact {
+    
+    height: 600px;
+    width: 100%;
+    background-color: #fff;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+   
+}
+
+.social-row {
+
+   /* text-shadow: 0 0 2px lightslategray;*/
+    color: #008dd2;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.img-social {
+    margin-left: 95%;
+    margin-top: 50%;
+}
+
+#services {
+    
+    height: 800px;
+    width: 100%;
+    background-color: #eee;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.img-responsive {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 10%;
+ 
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 300px;
+}
+
+
+footer {
+    margin: 50px 0;
+}
+
+.ouverture {
+    
+    text-shadow: 0 0 8px lightslategray;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 68px;
+    margin-left: 20%;
+    
+}
+
+.test-box {
+    
+    text-shadow: 0 0 8px lightslategray;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10%;
+    position: fixed;
+}
+
+
+.test-box1 {
+  
+    color: #000;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+.footer {
+    
+    background-color: slategrey;
+}
+
+
+
+/* Site Countdown Part
+=====================================================================*/
+.countdown{
+	color: #fff;
+	margin: 40px auto 10px;
+	width: 70%;
+}
+.countdown_row{
+	display: block;
+	margin-left: 5px;
+	overflow: hidden;
+	width: 100%;
+}
+.countdown_section{
+	background: none repeat scroll 0 0 transparent;
+	border: 2px solid #ddd;
+	border-radius: 100%;
+	display: block;
+	float: left;
+	font-size: 25px;
+	margin: 20% 5% auto;
+	padding: 30px 12px;
+	text-align: center;
+	width: 140px;
+    margin-top: 10px;
+}
+.countdown_amount{
+	font-size: 25px;
+	font-weight: 800;
+}
+
+/* Responsive CSS
+=====================================================================*/
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+.menu_area {
+  position: fixed;
+  top: 0;
+  height:40px;
+}
+.site_title p {
+  padding: 10px;
+}
+.countdown {
+  margin-bottom: 80px;
+	width: 83%;
+}
+.about_icon {
+  width: 65%;
+}
+.about {
+  padding: 60px 0 0;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+.menu_area {
+  position: fixed;
+  top: 0;
+  height:40px;
+}
+
+.site_title p {
+  padding: 10px;
+}
+.countdown {
+margin-bottom: 80px;
+width: 100%;
+}
+.countdown_section {
+  margin: 15px 20px auto;
+}
+.about_icon {
+  width: 20%;
+}
+.about {
+  padding: 60px 0 0;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.menu_area {
+display:none;
+}
+
+.site_title p {
+  padding: 10px;
+}
+.countdown {
+margin: 50px auto;
+width: 90%;
+}
+.countdown_section {
+
+  margin: 15px 20px auto;
+  padding: 45px 12px;
+
+  width: 170px;
+}
+.about_icon {
+  width: 30%;
+}
+.about {
+  padding: 60px 0 0;
+}
+.email_input_box {
+  margin: 0 auto 30px;
+  width: 87%;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+.menu_area {
+display:none;
+}
+
+.site_title p {
+  padding: 10px;
+}
+.countdown {
+margin: 50px auto;
+width: 60%;
+}
+.countdown_section {
+
+  margin: 15px 20px auto;
+  padding: 45px 12px;
+
+  width: 170px;
+}
+.about_icon {
+	width: 45%;
+}
+.about {
+  padding: 60px 0 0;
+}
+
+}
+
+@media (max-width: 319px) {
+.menu_area {
+display:none;
+}
+.site_title p {
+  padding: 10px;
+}
+.navbar-default {
+  margin-top: -10px;
+}
+.countdown {
+margin: 50px auto;
+width: 70%;
+}
+.countdown_section {
+  margin: 15px 20px auto;
+  padding: 45px 12px;
+  width: 170px;
+}
+.about_icon {
+	width: 50%;
+}
+.about {
+  padding: 60px 0 0;
+}
+.email_input_box {
+  margin: 0 auto 30px;
+  width: 87%;
+}
+}
+

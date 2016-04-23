@@ -1,0 +1,17 @@
+.article-promo-smooth
+{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	width: 25%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	color: #333;
+	font-family: "Roboto";
+	line-height: 1.5em;
+	font-weight: 300;
+
+}
